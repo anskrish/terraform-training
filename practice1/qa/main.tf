@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket = "newbucketkr"
-    key = "dev/terraform/remote/terraform.tfstate"
+    key = "qa/terraform/remote/terraform.tfstate"
     region = "us-west-2"
   }
 }
